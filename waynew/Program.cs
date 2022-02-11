@@ -26,6 +26,12 @@ namespace waynew
                         Console.WriteLine($"{a} / {b} = {a + b}");
                         break;
                     }
+                case "-":
+                    {
+                        Console.WriteLine("- выполнить операцию “-”");
+                        Console.WriteLine($"{a} - {b} = " + (a - b));
+                        break;
+                    }
             }
         }
     }
